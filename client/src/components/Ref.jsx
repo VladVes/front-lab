@@ -25,7 +25,7 @@ class Ref extends React.Component {
         />
         <div style={{ width: "600px", margin: "0 auto" }}>
           <pre>
-            <code class="language-javascript">
+            <code className="language-javascript">
               {`
   class Ref extends React.Component {
     focusTextInput = () => {

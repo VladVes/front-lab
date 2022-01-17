@@ -50,7 +50,7 @@ function Main() {
       <h1>React Lab</h1>
       <Router>
         <Switch>
-          <Route path="/ref" component={Ref} />
+           <Route path="/ref" component={Ref} />
 
           <Route path="/redux-container" component={ComponentInContainer} />
 

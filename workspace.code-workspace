@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"workbench.colorTheme": "Solarized Light"
+		"workbench.colorTheme": "Solarized Light",
+		"cSpell.words": [
+			"reduxjs"
+		]
 	}
 }

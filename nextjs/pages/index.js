@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
+import Date from "../components/Date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 
@@ -25,7 +26,7 @@ export default function Home({ allPostsData }) {
               <br />
               {id}
               <br />
-              {date}
+              <Date dateString={date} />
             </li>
           ))}
         </ul>
